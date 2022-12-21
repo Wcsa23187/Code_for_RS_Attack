@@ -4,3 +4,4 @@
 - 更改了 legup templates的方式
   - 使用了不同的顺序 分为hard easy两个文件
 - 在MF 进入try 后强制修改当前使用的模型，从lgn更改为MF
+- 删除MF文件evaluate 里关于 target users 的 recall 等
