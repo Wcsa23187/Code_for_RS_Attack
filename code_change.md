@@ -1,0 +1,6 @@
+- 记录每一次对云端代码的修改
+  - 只对 light 修改了 seed ,  target item 的传入
+  - 只有Light 具有输出攻击前后预测结果的功能
+- 更改了 legup templates的方式
+  - 使用了不同的顺序 分为hard easy两个文件
+- 在MF 进入try 后强制修改当前使用的模型，从lgn更改为MF
