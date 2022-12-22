@@ -3,5 +3,8 @@
   - 只有Light 具有输出攻击前后预测结果的功能
 - 更改了 legup templates的方式
   - 使用了不同的顺序 分为hard easy两个文件
-- 在MF 进入try 后强制修改当前使用的模型，从lgn更改为MF
-- 删除MF文件evaluate 里关于 target users 的 recall 等
+- 测试矩阵
+  - 在MF 进入try 后强制修改当前使用的模型，从lgn更改为MF
+  - 删除MF文件evaluate 里关于 target users 的 recall 等
+  - 为了服务于平均分摊Budget即1--6，则增加一个参数 并更改在AUSHplus中 legup部分的分配方法 需要传入参数  --budget 1
+  - 调整random seed 在MF里面   
